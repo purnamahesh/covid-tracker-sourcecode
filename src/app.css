@@ -1,0 +1,61 @@
+.navbar{
+    box-shadow: 7px lightgray;
+}
+.graph{
+    height:400px !important;
+    box-shadow: 7px 7px lightgray;
+    border-radius: 7px;
+    transition-property: all;
+    transition-duration:2s;
+}
+
+.graph:hover{
+    box-shadow: none;
+}
+
+#state-wide-table{
+    box-shadow: 7px 7px lightgray;
+    border-radius: 20px;
+}
+
+.card-box{
+    color: white;
+    padding: 7px;
+    border-radius: 7px;
+    transition-property: all;
+    transition-duration: 1s;
+    box-shadow: 5px 5px lightgray;
+}
+
+.card-box:hover{
+    box-shadow: -5px -5px lightgray;
+}
+.state-button{
+    border-radius: 10px!important;
+    transition-property: all;
+    transition-duration: 1s;
+    margin-bottom: 5px;
+}
+.state-button:hover{
+    text-decoration: none;
+    background: #007bff;
+    color: white;
+}
+
+#fotter{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background: darkslategray;
+    width: 100vw;
+}
+.icon{
+    padding: 0px;
+    color: #007bff;
+    font-size: 20px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.icon:hover{
+    font-size: 40px;
+    color: hotpink;
+}
