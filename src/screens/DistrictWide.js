@@ -4,7 +4,7 @@ function DistrictWide() {
     const [district, setdistrict] = useState([])
     var dis = {}
     const getDistrictsWise = async () => {
-        const data = await fetch('https://api.covid19india.org/csv/latest/districts.csv')
+        const data = await fetch('https://data.covid19india.org/csv/latest/district_wise.csv')
             .then(res => res.text())
         const val = Papa.parse(data, {
             header: true,

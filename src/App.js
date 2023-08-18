@@ -14,7 +14,7 @@ function App() {
   const [states, setStates] = useState([])
 
   const getNationalWise = async () => {
-    const data = await fetch('https://api.covid19india.org/csv/latest/case_time_series.csv')
+    const data = await fetch('https://data.covid19india.org/csv/latest/case_time_series.csv')
       .then(res => res.text())
     const val = Papa.parse(data, {
       header: true,
@@ -25,7 +25,7 @@ function App() {
     /* console.log(val) */
   }
   const getStateWise = async () => {
-    const data = await fetch('https://api.covid19india.org/csv/latest/state_wise.csv')
+    const data = await fetch('https://data.covid19india.org/csv/latest/state_wise.csv')
       .then(res => res.text())
     const val = Papa.parse(data, {
       header: true,
